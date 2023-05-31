@@ -5,6 +5,9 @@
 body{
     background-color: #E7E9EB;
 }
+.container-fluid > h1{
+    font-weight: 500;
+}
 .l_tbdr{
     border:1px dashed #000;
 }
@@ -35,3 +38,18 @@ body{
     height:6rem;
     border-width:0.4em;
 }
+@media only screen and (max-width:576px){
+    button{
+        width:100% !important;
+    }
+}
+/* @media only screen and (max-width:768px){
+    button{
+        width:75% !important;
+    }
+}
+@media only screen and (max-width:992px){
+    button{
+        width:75% !important;
+    }
+} */
